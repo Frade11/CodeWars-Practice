@@ -1,3 +1,4 @@
+//Pairs of integers from 0 to n
 function generatePairs(n) {
   const pairs = [];
   for (let a = 0; a <= n; a++) {
@@ -7,3 +8,4 @@ function generatePairs(n) {
   }
   return pairs;
 }
+console.log(generatePairs(2));
